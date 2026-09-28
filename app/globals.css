@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+:root {
+  --content-gutter: clamp(1rem, 4vw, 4rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+}
+
+iframe {
+  display: block;
+  max-width: 100%;
+  border: 0;
+}
+
+nav {
+  gap: 1rem;
+  padding-inline: var(--content-gutter) !important;
+}
+
+nav > div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+nav button {
+  margin: 0 !important;
+}
+
+.container {
+  width: min(100% - (2 * var(--content-gutter)), 72rem);
+}
+
+.item {
+  min-width: 0;
+  text-align: center;
+}
+
+.item img {
+  margin-inline: auto;
+}
+
+.social-login-buttons button {
+  width: min(100%, 20rem);
+}
+
+@media (max-width: 640px) {
+  nav {
+    min-height: 4rem;
+    padding-block: 0.75rem;
+  }
+
+  nav > div:last-child {
+    gap: 0.35rem;
+  }
+
+  nav button {
+    padding: 0.55rem 0.75rem !important;
+    font-size: 0.8rem !important;
+  }
+
+  [class~="h-[44vh]"] {
+    min-height: 26rem;
+    height: auto;
+    padding: 3rem var(--content-gutter);
+    text-align: center;
+  }
+
+  [class~="h-[44vh]"] > div:first-child {
+    flex-wrap: wrap;
+    font-size: clamp(2.25rem, 11vw, 3rem);
+    line-height: 1.1;
+  }
+
+  [class~="h-[44vh]"] > p {
+    max-width: 32rem;
+    line-height: 1.6;
+  }
+
+  [class~="h-[44vh]"] > div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  [class~="h-[44vh]"] button {
+    margin: 0 !important;
+  }
+
+  .container {
+    padding-block: 4rem;
+  }
+
+  .container h1 {
+    margin-bottom: 2.5rem;
+  }
+
+  .container > div.flex.gap-5 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2.5rem;
+  }
+
+  .container > div.flex.gap-5 .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .social-login-buttons + div {
+    padding: 2rem var(--content-gutter);
+  }
+}
+
+@media (max-width: 380px) {
+  nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  nav > div:last-child {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}

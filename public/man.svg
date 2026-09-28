@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Head -->
+  <circle cx="95" cy="55" r="25" fill="#f5b97a"/>
+
+  <!-- Hair -->
+  <path d="M72 48 Q75 25 98 27 Q120 28 119 50
+           Q108 40 96 43 Q84 45 72 48Z"
+        fill="#292929"/>
+
+  <!-- Body -->
+  <path d="M55 125 Q60 90 95 88 Q130 90 140 125 L140 150 H55Z"
+        fill="#3b82f6"/>
+
+  <!-- Laptop -->
+  <rect x="85" y="105" width="85" height="50" rx="4"
+        fill="#64748b"/>
+  <rect x="90" y="110" width="75" height="40" rx="2"
+        fill="#dbeafe"/>
+
+  <!-- Laptop base -->
+  <path d="M75 155 H180 L170 165 H65Z"
+        fill="#475569"/>
+
+  <!-- Arms -->
+  <path d="M65 115 Q75 135 100 150"
+        fill="none" stroke="#f5b97a" stroke-width="10"
+        stroke-linecap="round"/>
+
+  <!-- Table -->
+  <path d="M35 166 H180"
+        stroke="#334155" stroke-width="7"
+        stroke-linecap="round"/>
+</svg>

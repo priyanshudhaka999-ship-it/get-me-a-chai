@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+
+  <!-- Left person -->
+  <circle cx="55" cy="70" r="25" fill="#f5b97a"/>
+  <path d="M25 145 Q28 105 55 105 Q82 105 85 145Z"
+        fill="#facc15"/>
+
+  <!-- Left hair -->
+  <path d="M32 68 Q32 40 55 40 Q78 40 78 68
+           Q68 55 55 57 Q43 55 32 68Z"
+        fill="#292929"/>
+
+  <!-- Right person -->
+  <circle cx="145" cy="70" r="25" fill="#f5b97a"/>
+  <path d="M115 145 Q118 105 145 105 Q172 105 175 145Z"
+        fill="#22c55e"/>
+
+  <!-- Right hair -->
+  <path d="M122 68 Q122 40 145 40 Q168 40 168 68
+           Q158 55 145 57 Q133 55 122 68Z"
+        fill="#292929"/>
+
+  <!-- Center person -->
+  <circle cx="100" cy="65" r="30" fill="#f5b97a"/>
+
+  <!-- Center hair -->
+  <path d="M70 62 Q72 28 100 30 Q128 30 130 62
+           Q118 48 100 50 Q82 48 70 62Z"
+        fill="#292929"/>
+
+  <!-- Center body -->
+  <path d="M62 155 Q65 105 100 105 Q135 105 138 155Z"
+        fill="#3b82f6"/>
+
+</svg>

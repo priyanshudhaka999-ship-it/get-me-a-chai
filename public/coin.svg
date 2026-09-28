@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+
+  <!-- Coin stack -->
+  <ellipse cx="110" cy="145" rx="55" ry="18" fill="#d99a16"/>
+  <rect x="55" y="125" width="110" height="20" fill="#eab308"/>
+  <ellipse cx="110" cy="125" rx="55" ry="18"
+           fill="#facc15" stroke="#b7791f" stroke-width="5"/>
+
+  <!-- Main coin -->
+  <ellipse cx="90" cy="90" rx="55" ry="55"
+           fill="#facc15" stroke="#b7791f" stroke-width="6"/>
+
+  <!-- Inner circle -->
+  <ellipse cx="90" cy="90" rx="43" ry="43"
+           fill="none" stroke="#eab308" stroke-width="5"/>
+
+  <!-- Dollar symbol -->
+  <text x="90" y="110"
+        text-anchor="middle"
+        font-size="60"
+        font-family="Arial"
+        font-weight="bold"
+        fill="#92400e">
+    $
+  </text>
+
+  <!-- Shine -->
+  <path d="M60 65 Q65 52 78 48"
+        fill="none"
+        stroke="#fff7ae"
+        stroke-width="7"
+        stroke-linecap="round"/>
+</svg>

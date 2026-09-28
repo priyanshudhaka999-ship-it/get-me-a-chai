@@ -1,0 +1,77 @@
+<svg
+  width="120"
+  height="120"
+  viewBox="0 0 120 120"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Steam -->
+  <path
+    d="M45 35 C35 25, 55 20, 45 10"
+    fill="none"
+    stroke="#8B4513"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M60 35 C50 25, 70 20, 60 10"
+    fill="none"
+    stroke="#8B4513"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M75 35 C65 25, 85 20, 75 10"
+    fill="none"
+    stroke="#8B4513"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+
+  <!-- Cup -->
+  <path
+    d="M25 40 H90 V70
+       C90 88, 78 98, 57.5 98
+       C37 98, 25 88, 25 70 Z"
+    fill="#C97832"
+  />
+
+  <!-- Tea -->
+  <ellipse
+    cx="57.5"
+    cy="42"
+    rx="32.5"
+    ry="9"
+    fill="#6F3518"
+  />
+
+  <!-- Cup highlight -->
+  <path
+    d="M35 55 V72 C35 82, 42 87, 48 89"
+    fill="none"
+    stroke="#E9A15B"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+
+  <!-- Handle -->
+  <path
+    d="M90 52 H99
+       C112 52, 112 78, 99 78
+       H90"
+    fill="none"
+    stroke="#C97832"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+
+  <!-- Saucer -->
+  <path
+    d="M20 100 Q58 110 96 100"
+    fill="none"
+    stroke="#8B4513"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+</svg>
